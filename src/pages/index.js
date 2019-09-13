@@ -1,9 +1,11 @@
 import React from "react"
 import Header from '../components/Header'
+import { Link } from 'gatsby'
 
 export default () => (
     <div style={{ color: `purple` }}>
-        <a href='./about'>About</a>
+        <Link to='./about'>About</Link>
+        <Link to='./contact'>Contact</Link>
         <Header pageTitle={'Home'} />
         <h1>Hello Gatsby!</h1>
         <p>What a world.</p>
